@@ -50,7 +50,7 @@ export const TodoItem = ({ todo }: { todo: Todo }) => {
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
             >
-              {title.length > 12 ? (
+              {title.length > 20 ? (
                 <>
                   <span className="truncated-text">{title}</span>
                   {hovered && <div className="tooltip">{title}</div>}
