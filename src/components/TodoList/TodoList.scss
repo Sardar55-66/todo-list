@@ -1,0 +1,15 @@
+.todo-list-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-direction: column;
+}
+.todo-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 93%;
+  @media (max-width: 750px) {
+    justify-content: center;
+  }
+}
